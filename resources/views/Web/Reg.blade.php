@@ -1,4 +1,4 @@
-@extends('Layout.infoView');
+@extends('Layout.infoView')
 @section('content')
     <br>
     <div class="mui-panel">

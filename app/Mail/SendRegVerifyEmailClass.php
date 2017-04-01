@@ -31,7 +31,7 @@ class SendRegVerifyEmailClass extends Mailable
      */
     public function build()
     {
-        $this -> subject('voi.im用户注册邮箱激活');
+        $this -> subject('[voi.im]新注册用户邮箱激活');
         return $this->view('Email.regEmail',[
             'title' => $this -> userData['title'],
             'username' => $this -> userData['username'],
